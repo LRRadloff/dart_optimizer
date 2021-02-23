@@ -1,4 +1,4 @@
-source("D:/Documents/R_Coding/Dart_Optimizer/Dart_Optimizer_support_1.R")
+source("../Dart_Optimizer/Dart_Optimizer_support_1.R")
 
 n_sim <- 2000
 
@@ -32,4 +32,4 @@ for (sd_vert in poss_sds) {
   }
 }
 
-write_csv(sim_means, "D:/Documents/R_Coding/Dart_Optimizer/sim_means.csv")
+write_csv(sim_means, "../Dart_Optimizer/sim_means.csv")
