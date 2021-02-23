@@ -5,6 +5,8 @@ account: lradloff
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3394915
-bundleId: 3988870
+bundleId: 4260650
 url: https://lradloff.shinyapps.io/dart_optimizer/
-when: 1607979558.42393
+when: 1614070179.8021
+asMultiple: FALSE
+asStatic: FALSE
