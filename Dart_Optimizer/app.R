@@ -1,7 +1,7 @@
 library(shiny)
 
 source('Dart_Optimizer_support_2.R')
-sim_means <- read_csv("sim_means.csv")
+sim_means <- vroom("sim_means.csv")
 
 ui <- fluidPage(
 
