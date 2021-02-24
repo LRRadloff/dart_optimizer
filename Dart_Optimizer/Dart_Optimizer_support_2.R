@@ -1,7 +1,7 @@
 library(ellipse)
 library(ggforce)
 library(gridExtra)
-library(vroom)
+library(data.table)
 
 source("Dart_Optimizer_support_1.R")
 

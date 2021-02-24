@@ -1,7 +1,7 @@
 library(shiny)
 
 source('Dart_Optimizer_support_2.R')
-sim_means <- vroom("sim_means.csv") %>% filter(sd_horiz > 0, sd_vert > 0)
+sim_means <- fread("sim_means.csv") 
 
 ui <- fluidPage(
 
